@@ -106,7 +106,7 @@ button:focus {
 }
 input,
 textarea {
-    font-family: 'Yantramanav', Arial;
+	font-family: 'Dosis', sans-serif;
 }
 textarea {
     padding: 14px;
@@ -358,13 +358,13 @@ p {
 }
 .hamburger-label {
     display: block;
-    font-family: 'Yantramanav', Arial;
-    font-size: 16px;
-    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
     height: auto;
     position: relative;
     top: 0;
-    left: -4em;
+    left: -5em;
     padding-right: 4em;
     text-transform: uppercase;
     line-height: 1.5em;
@@ -490,6 +490,7 @@ p {
     letter-spacing: .02em;
     color: #fff;
     font-weight: 700 !important;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.52);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -1342,20 +1343,22 @@ footer {
 
 /* Marcos Styling Below */
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900 !important;
-	letter-spacing: -3px;
-	font-size: calc(45px + 1vw);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700 !important;
+    letter-spacing: -3px;
+    font-size: calc(35px + 1vw);
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.52);
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 700 !important;
-	font-size: calc(40px + 16 * (100vw - 992px) / 1508);
+	font-size: calc(35px + 16 * (100vw - 992px) / 1508);
+
 }
 
 h3, h4 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-weight: 700;
     text-transform: uppercase;
     color: #666;
@@ -1376,11 +1379,10 @@ a:hover {
 
 /*  NAVBAR */
 .ms-navbar a {
-    font-family: 'Montserrat';
+	font-family: 'Playfair Display', serif;
 }
 
 .nav-item__label {
-	font-family: 'Raleway';
 }
 
 
@@ -1478,10 +1480,12 @@ a:hover {
 
 .copyright {
 	text-align: left;
+    font-family: 'Playfair Display';
+    text-transform: lowercase;
 }
 
 .copyright>p {
-	font-size: 15px;
+	font-size: 10px;
 }
 
 .footer-wrapper {
