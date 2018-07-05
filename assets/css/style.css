@@ -620,7 +620,7 @@ p {
 }
 .swiper-slide-duplicate-active .overlay,
 .swiper-slide-active .overlay {
-    opacity: .4;
+    opacity: 0;
 }
 .slide-inner {
     position: absolute;
