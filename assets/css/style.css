@@ -487,9 +487,9 @@ p {
 }
 .ms-navbar .ms-btn {
     font-size: 1.75em;
-    letter-spacing: .02em;
+    letter-spacing: 0;
     color: #fff;
-    font-weight: 700 !important;
+    font-weight: 400 !important;
     text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.52);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
